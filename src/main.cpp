@@ -216,7 +216,7 @@ void autonomous() {
 
 
 	// left corners
-
+	//check config
 		matchLoad.extend();
 		driveStraight(33, 1000, 600);
 		turnInertial(-90,600,400);
